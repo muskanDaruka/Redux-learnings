@@ -65,3 +65,13 @@ used for apis : Api -> pending -> success -> failure
 ## Flow:
 
 Button click -> dispatch(addItem()) -> Action -> Reducer -> store updated -> selector reads -> component re-render
+
+## Provider
+
+Provider is a React component from React-Redux that makes the Redux store available to all the components in the React application.
+
+## Slice 
+
+A slice is a portion of the Redux store that contains the state and logic related to a specific feature of your application.
+
+A slice is a collection of Redux state, reducers, and actions for a particular feature, created using createSlice() from Redux Toolkit.
